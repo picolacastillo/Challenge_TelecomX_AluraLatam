@@ -31,3 +31,7 @@ Tras la limpieza inicial, se aplicaron ajustes estructurales:
 Se incorporó una nueva variable métrica para enriquecer el análisis:
 * **Cuentas_Diarias:** Cálculo del costo diario por cliente derivado de la facturación mensual (`MonthlyCharges / 30`).
 * **Propósito:** Esta métrica permite comparar el impacto del gasto diario en la lealtad del cliente y facilita análisis de sensibilidad en la facturación.
+
+* ## 🌐 Estandarización y Comunicación
+* **Traducción de Variables:** Se renombraron las columnas al español para mejorar la accesibilidad de los hallazgos ante stakeholders hispanohablantes.
+* **Codificación Binaria:** Transformación de la variable `Churn` a formato numérico (0/1), preparando el dataset para futuros modelos de Machine Learning y cálculos de correlación.

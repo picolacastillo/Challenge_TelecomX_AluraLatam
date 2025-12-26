@@ -41,3 +41,7 @@ Tras realizar el análisis descriptivo, se identificaron los siguientes puntos:
 * **Gasto Promedio:** Los clientes tienen un cargo mensual promedio de $[Valor de la media].
 * **Permanencia:** La mediana de permanencia es de [Valor de la mediana] meses, lo que indica [breve interpretación].
 * **Contraste de Evasión:** Los clientes que abandonan el servicio suelen tener cargos mensuales promedio más altos ($[Valor]) en comparación con los que permanecen ($[Valor]).
+
+* ## 📈 Visualización de Resultados
+### Distribución de Evasión (Churn)
+Se identificó que el **[X]%** de la base de datos corresponde a clientes que abandonaron el servicio. Esta cifra representa el punto de partida para identificar los factores de riesgo en las siguientes etapas del análisis.

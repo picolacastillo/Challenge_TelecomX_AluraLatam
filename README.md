@@ -8,3 +8,9 @@ Los datos fueron obtenidos de la API de **Telecom X** a través del repositorio 
 * **Datos demográficos:** Género, ciudadanos mayores, dependientes, etc.
 * **Servicios contratados:** Tipo de internet, seguridad online, soporte técnico.
 * **Estado de Evasión (Churn):** Identificación de clientes que abandonaron el servicio (Yes/No).
+
+* ## 🔍 Análisis Exploratorio Inicial
+Se realizó una inspección de la estructura del dataset identificando:
+* **Variables Categóricas:** Datos demográficos y tipos de servicios (Fiber optic, DSL, etc.).
+* **Variables Numéricas:** Meses de permanencia (Tenure) y cargos financieros.
+* **Calidad de Datos:** Verificación de tipos mediante `df.info()` y detección de inconsistencias en columnas numéricas que venían como texto.

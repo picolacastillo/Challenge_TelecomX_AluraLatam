@@ -45,3 +45,9 @@ Tras realizar el análisis descriptivo, se identificaron los siguientes puntos:
 * ## 📈 Visualización de Resultados
 ### Distribución de Evasión (Churn)
 Se identificó que el **[X]%** de la base de datos corresponde a clientes que abandonaron el servicio. Esta cifra representa el punto de partida para identificar los factores de riesgo en las siguientes etapas del análisis.
+
+## 💡 Hallazgos Estratégicos
+Tras segmentar la evasión por variables categóricas, se observaron los siguientes patrones:
+* **Contratos:** Los clientes con contratos **Mes a Mes** representan la mayor tasa de abandono en comparación con contratos de largo plazo.
+* **Servicios:** Se detectó una correlación positiva entre el uso de **Fibra Óptica** y la tasa de evasión (posible problema de calidad o precio).
+* **Métodos de Pago:** El pago mediante **Cheque Electrónico** muestra una tendencia de fuga significativamente mayor.

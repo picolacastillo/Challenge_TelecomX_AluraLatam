@@ -20,3 +20,9 @@ Para garantizar la fiabilidad de los resultados, se realizaron las siguientes ac
 * **Tratamiento de Nulos:** Se identificaron valores faltantes en `TotalCharges` derivados de clientes con 0 meses de antigüedad; se optó por eliminarlos para evitar sesgos financieros.
 * **Corrección de Tipos:** Conversión de variables de tipo *object* a *float* para permitir cálculos estadísticos.
 * **Integridad:** Eliminación de registros duplicados y validación de consistencia en etiquetas de servicios.
+
+## ⚙️ Ajuste y Coherencia de Datos
+Tras la limpieza inicial, se aplicaron ajustes estructurales:
+* **Estandarización de Categorías:** Eliminación de espacios en blanco y corrección de etiquetas inconsistentes.
+* **Ingeniería de Características Simple:** Creación de una versión numérica de la variable `Churn` para facilitar el análisis de correlación.
+* **Validación Final:** Verificación de que el 100% de los registros sean coherentes y estén listos para la visualización.

@@ -9,6 +9,14 @@ Los datos fueron obtenidos de la API de **Telecom X** a través del repositorio 
 * **Servicios contratados:** Tipo de internet, seguridad online, soporte técnico.
 * **Estado de Evasión (Churn):** Identificación de clientes que abandonaron el servicio (Yes/No).
 
+* ## 📂 Estructura del Proyecto
+
+```text
+├── data/          # Archivos de datos (CSV, JSON)
+├── notebooks/     # Notebooks de Google Colab (.ipynb)
+├── reports/       # Gráficos exportados e informes finales
+└── README.md      # Descripción general del proyecto
+
 * ## 🔍 Análisis Exploratorio Inicial
 Se realizó una inspección de la estructura del dataset identificando:
 * **Variables Categóricas:** Datos demográficos y tipos de servicios (Fiber optic, DSL, etc.).

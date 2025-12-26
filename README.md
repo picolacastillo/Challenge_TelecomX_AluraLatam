@@ -56,3 +56,10 @@ Tras segmentar la evasión por variables categóricas, se observaron los siguien
 * **Contratos:** Los clientes con contratos **Mes a Mes** representan la mayor tasa de abandono en comparación con contratos de largo plazo.
 * **Servicios:** Se detectó una correlación positiva entre el uso de **Fibra Óptica** y la tasa de evasión (posible problema de calidad o precio).
 * **Métodos de Pago:** El pago mediante **Cheque Electrónico** muestra una tendencia de fuga significativamente mayor.
+
+* # 🚀 Proyecto: Análisis de Evasión de Clientes (Churn)
+**Estado:** Finalizado ✅
+
+Este proyecto analiza el comportamiento de los clientes de una empresa de telecomunicaciones para reducir la fuga de usuarios. Utilizando Python y técnicas de Análisis Exploratorio (EDA), identifiqué que la estabilidad contractual y los costos mensuales son los principales disparadores de evasión.
+
+**Herramientas utilizadas:** Python, Pandas, Seaborn, Matplotlib, API REST.

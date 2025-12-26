@@ -47,9 +47,9 @@ Se utilizó la librería **requests** para la ingesta y **pandas** para la estru
 ## 📈 Hallazgos y Resultados Visuales
 
 ### Resumen Estadístico
-- **Gasto promedio:** Los clientes tienen un cargo mensual promedio de $[Valor].
-- **Permanencia:** La mediana de la permanencia es de [Valor] meses.
-- **Tasa de evasión:** Se identificó que el [X]% de los clientes abandonaron el servicio.
+- **Gasto promedio:** Los clientes tienen un cargo mensual promedio de $64.76.
+- **Permanencia:** La mediana de la permanencia es de 29 meses.
+- **Tasa de evasión:** Se identificó que el 26.5% de los clientes abandonaron el servicio.
 
 ### Hallazgos Estratégicos (Insights)
 - **Contratos:** Los clientes con contratos *Mes a Mes* son los más propensos a la fuga.

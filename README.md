@@ -46,6 +46,11 @@ Tras realizar el análisis descriptivo, se identificaron los siguientes puntos:
 ### Distribución de Evasión (Churn)
 Se identificó que el **[X]%** de la base de datos corresponde a clientes que abandonaron el servicio. Esta cifra representa el punto de partida para identificar los factores de riesgo en las siguientes etapas del análisis.
 
+## 📈 Análisis de Variables Numéricas
+El análisis de distribución reveló factores críticos de permanencia:
+* **Curva de Aprendizaje:** Los clientes que cancelan tienen una mediana de permanencia mucho menor (aprox. [X] meses), lo que sugiere que los primeros 6 meses son críticos para la retención.
+* **Sensibilidad al Precio:** Se observa que el grupo de evasión tiene una mediana de `Cargos_Mensuales` superior al grupo que permanece, indicando una alta sensibilidad a costos elevados.
+
 ## 💡 Hallazgos Estratégicos
 Tras segmentar la evasión por variables categóricas, se observaron los siguientes patrones:
 * **Contratos:** Los clientes con contratos **Mes a Mes** representan la mayor tasa de abandono en comparación con contratos de largo plazo.

@@ -35,3 +35,9 @@ Se incorporó una nueva variable métrica para enriquecer el análisis:
 * ## 🌐 Estandarización y Comunicación
 * **Traducción de Variables:** Se renombraron las columnas al español para mejorar la accesibilidad de los hallazgos ante stakeholders hispanohablantes.
 * **Codificación Binaria:** Transformación de la variable `Churn` a formato numérico (0/1), preparando el dataset para futuros modelos de Machine Learning y cálculos de correlación.
+
+* ## 📊 Resumen Estadístico y Hallazgos
+Tras realizar el análisis descriptivo, se identificaron los siguientes puntos:
+* **Gasto Promedio:** Los clientes tienen un cargo mensual promedio de $[Valor de la media].
+* **Permanencia:** La mediana de permanencia es de [Valor de la mediana] meses, lo que indica [breve interpretación].
+* **Contraste de Evasión:** Los clientes que abandonan el servicio suelen tener cargos mensuales promedio más altos ($[Valor]) en comparación con los que permanecen ($[Valor]).

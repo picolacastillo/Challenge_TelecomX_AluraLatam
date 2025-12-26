@@ -26,3 +26,8 @@ Tras la limpieza inicial, se aplicaron ajustes estructurales:
 * **Estandarización de Categorías:** Eliminación de espacios en blanco y corrección de etiquetas inconsistentes.
 * **Ingeniería de Características Simple:** Creación de una versión numérica de la variable `Churn` para facilitar el análisis de correlación.
 * **Validación Final:** Verificación de que el 100% de los registros sean coherentes y estén listos para la visualización.
+
+* ## 💡 Ingeniería de Datos (Feature Engineering)
+Se incorporó una nueva variable métrica para enriquecer el análisis:
+* **Cuentas_Diarias:** Cálculo del costo diario por cliente derivado de la facturación mensual (`MonthlyCharges / 30`).
+* **Propósito:** Esta métrica permite comparar el impacto del gasto diario en la lealtad del cliente y facilita análisis de sensibilidad en la facturación.
